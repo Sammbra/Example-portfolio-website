@@ -37,3 +37,61 @@ h2, h3, h4 {
 img {
     width: 100%;
 }
+
+/* Logo */
+#logo {
+    width: 70px;
+    height: 70px;
+    color: #fff;
+    text-transform:  uppercase;
+}
+
+/* Main Nav */
+#main-nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+}
+
+#main-nav ul {
+    display: flex;
+}
+
+#main-nav ul li {
+    padding: 1rem 1.5rem;
+}
+
+#main-nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    border-bottom: 3px transparent solid;
+    padding-bottom: 0.5rem;
+    transition: border-color 0.5s;
+}
+
+#main-nav ul li a:hover {
+    border-color: var(--medium-color);
+}
+
+#main-nav ul li a.current {
+    border-color: var(--main-color);
+}
+
+/* Header home */
+#header-home {
+    background: var(--bg-image) no-repeat center right/cover;
+    height: 100vh;
+    color: #fff;
+}
+
+/* Header content */
+#header-home .header-content {
+    text-align: center;
+    padding-top: 20%;
+}
+
+#header-home .header-content h1 {
+    font-size: 4rem;
+    line-height: 1.2;
+}
