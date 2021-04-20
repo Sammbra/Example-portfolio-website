@@ -95,3 +95,47 @@ img {
     font-size: 4rem;
     line-height: 1.2;
 }
+
+/* Home Section a */
+#home-a .specials {
+    margin-top: 3rem;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#home-a .specials .fas {
+    color: var(--main-color);
+    padding-bottom: 0.4rem;
+}
+
+/* Home Section b */
+#home-b .stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#home-b .stats ul li {
+    line-height: 2;
+}
+
+#home-b .stats ul li.stats-title {
+    font-size: 1.5rem;
+}
+
+#home-b .stats ul li.stats-number {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#home-b .stats div {
+    padding: 3rem 0;
+}
+
+#home-b .stats div:nth-child(odd) {
+    background-color: var(--light-color);
+}
+
+#home-b .stats div:nth-child(even) {
+    background-color: var(--medium-color);
+}
