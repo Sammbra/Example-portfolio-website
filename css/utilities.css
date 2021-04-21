@@ -37,6 +37,28 @@ input[class^="btn"]:hover {
   background-color: var(--main-color);
 }
 
+/* Backgrounds */
+.bg-main {
+  background: var(--main-color);
+  color: #000;
+}
+
+.bg-dark {
+  background: var(--dark-color);
+  color: #fff;
+}
+
+.bg-light {
+  background: var(--light-color);
+  color: #000;
+}
+
+.bg-medium {
+  background: var(--medium-color);
+  color: #fff;
+}
+
+
 .lead {
   font-size: 1.3rem;
   margin-bottom: 2rem;
@@ -90,3 +112,4 @@ input[class^="btn"]:hover {
   font-weight: 100;
   text-transform: uppercase;
 }
+

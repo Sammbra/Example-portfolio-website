@@ -3,7 +3,7 @@
   --website-width: 1280px;
   --main-color: #ffbc00;
   --light-color: #f4f4f4;
-  --medium-color: #ccc;
+  --medium-color: #cccccc;
   --dark-color: #333;
   --bg-image: url("../img/showcase.jpg");
 }
@@ -190,6 +190,45 @@ img {
   background: var(--dark-color);
 }
 
+/* About Sections */
+#about-a .about-info {
+  display: grid;
+  grid-template-areas:
+   'bioimage bio bio'
+   'aw1 aw2 aw3';
+  grid-gap: 1.2rem;
+}
+
+/* Grid Area */
+#about-a .about-info .bio-image {
+  grid-area: bioimage;
+}
+
+#about-a .about-info .bio {
+  grid-area: bio;
+  border-left: 3px solid var(--main-color);
+  padding: 0.8rem;
+}
+
+#about-a .about-info .award-1 {
+  grid-area: aw1;
+}
+
+#about-a .about-info .award-2 {
+  grid-area: aw2;
+}
+
+#about-a .about-info .award-3 {
+  grid-area: aw3;
+}
+
+#about-a .about-info .award-1 .fas,
+#about-a .about-info .award-2 .fas,
+#about-a .about-info .award-3 .fas {
+  color: var(--main-color);
+  margin: 1rem;
+}
+
 /* Footer */
 #main-footer {
   background-color: var(--dark-color);
@@ -217,4 +256,11 @@ img {
 
 #main-footer .footer-content .social .fab:hover {
   background: var(--main-color);
+}
+
+/* Header Inner */
+#header-inner {
+  background: var(--bg-image) no-repeat 20% 30% /cover;
+  height: 5.5rem;
+  border-bottom: 3px solid var(--main-color);
 }
