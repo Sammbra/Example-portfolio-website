@@ -167,7 +167,7 @@ img {
   background: var(--main-color);
   width: 90px;
   height: 90px;
-  line-height: 90px;;
+  line-height: 90px;
 }
 
 #home-c .process .process-icon .process-step {
@@ -194,8 +194,8 @@ img {
 #about-a .about-info {
   display: grid;
   grid-template-areas:
-   'bioimage bio bio'
-   'aw1 aw2 aw3';
+    "bioimage bio bio"
+    "aw1 aw2 aw3";
   grid-gap: 1.2rem;
 }
 
@@ -211,7 +211,7 @@ img {
 #about-b .progress > div {
   height: 100%;
   color: #fff;
-  text-align: center; 
+  text-align: center;
   background: var(--main-color);
 }
 
@@ -283,6 +283,61 @@ img {
   margin: 1rem;
 }
 
+/* Contact Page */
+#contact-a {
+  height: 50vh;
+}
+
+#contact-a .text-fields {
+  display: grid;
+  grid-template-areas:
+    "name email"
+    "subject phone"
+    "message message";
+  grid-gap: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+
+#contact-a .text-fields .name-input {
+  grid-area: name;
+}
+
+#contact-a .text-fields .subject-input {
+  grid-area: subject;
+}
+
+#contact-a .text-fields .email-input {
+  grid-area: email;
+}
+
+#contact-a .text-fields .phone-input {
+  grid-area: phone;
+}
+
+#contact-a .text-fields .message-input {
+  grid-area: message;
+  height: 100px;
+}
+
+#contact-a .text-fields .text-input {
+  padding: 0.5rem 1rem;
+}
+
+#contact-a button[type='submit'] {
+  width: 50%;
+}
+
+#contact-b .contact-info {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+}
+
+#contact-c h1 {
+  text-align:center;
+  font-size: 4rem;
+}
+
 /* Footer */
 #main-footer {
   background-color: var(--dark-color);
@@ -314,7 +369,7 @@ img {
 
 /* Header Inner */
 #header-inner {
-  background: var(--bg-image) no-repeat 20% 30% /cover;
+  background: var(--bg-image) no-repeat 20% 30% / cover;
   height: 5.5rem;
   border-bottom: 3px solid var(--main-color);
 }

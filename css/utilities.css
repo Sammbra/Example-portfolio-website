@@ -40,7 +40,7 @@ input[class^="btn"]:hover {
 /* Backgrounds */
 .bg-main {
   background: var(--main-color);
-  color: #000;
+  color: #fff;
 }
 
 .bg-dark {
