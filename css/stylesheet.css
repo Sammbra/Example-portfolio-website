@@ -285,7 +285,7 @@ img {
 
 /* Contact Page */
 #contact-a {
-  height: 50vh;
+  height: 43rem;
 }
 
 #contact-a .text-fields {
@@ -323,7 +323,7 @@ img {
   padding: 0.5rem 1rem;
 }
 
-#contact-a button[type='submit'] {
+#contact-a button[type="submit"] {
   width: 50%;
 }
 
@@ -334,7 +334,7 @@ img {
 }
 
 #contact-c h1 {
-  text-align:center;
+  text-align: center;
   font-size: 4rem;
 }
 
